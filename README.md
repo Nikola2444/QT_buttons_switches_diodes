@@ -10,7 +10,7 @@ When these two steps are finished, just run the generated executable:
 
 ./Buttons_switches_diodes
 
-# LEDS
+## LEDS
 To turn on the leds just write a correct binary string into /dev/leds file. For example,
 if you want to turn on the right most diode, you should write:
 
@@ -23,7 +23,7 @@ echo 0x00000000 > /dev/leds
 Every bit represents one diode, and if you want to turn them on, or off, you need
 to write logic 1 or logic 0 to a correct position.
 
-# BUTTONS
+## BUTTONS
 
 To check if button is pressed just read from /dev/buttons file. If you run a simple read command like "cat" you should get the next output:
 
@@ -34,6 +34,6 @@ Output: 0x0000
 This means that the buttons aren't pressed. If there was a logical 1 on a certain
 position, that would mean that one button was pressed.
 
-# Switches
+## Switches
 
 The state of switches is checked in the same manner as the state of buttons.
