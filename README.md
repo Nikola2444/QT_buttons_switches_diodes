@@ -1,14 +1,10 @@
 # QT_buttons_switches_diodes
 
-This repository contains a simple QT project that emulates diodes, buttons and swithches. To start the application, the files need to be compiled with a make command:
+This repository contains a simple QT project that emulates diodes, buttons and swithches. To start the application run the lbt_init_script.sh to generate 3 files in /dev directory (buttons, switches, and leds). Through these files interaction with the leds, switches and buttons is possible. 
 
-     		make
+When this is done, just run the application:
 
-After the compilation, run the lbt_init_script to generate 3 files in /dev directory (buttons, switches, and leds). Through these files interaction with the leds, switches and buttons is possible. 
-
-When these two steps are finished, just run the generated executable:
-
-./Buttons_switches_diodes
+/BLS_executable_dir/Buttons_switches_diodes
 
 ## LEDS
 To turn on the leds just write a correct binary string into /dev/leds file. For example,
