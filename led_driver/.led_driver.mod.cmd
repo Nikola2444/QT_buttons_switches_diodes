@@ -1,1 +1,0 @@
-cmd_/home/nikola/Documents/git_repos/QT_buttons_switches_diodes/led_driver/led_driver.mod := { echo  /home/nikola/Documents/git_repos/QT_buttons_switches_diodes/led_driver/led_driver.o; echo; } > /home/nikola/Documents/git_repos/QT_buttons_switches_diodes/led_driver/led_driver.mod

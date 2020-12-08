@@ -1,1 +1,0 @@
-cmd_/home/nikolakovacevic/QT_buttons_switches_diodes/led_driver/led_driver.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/nikolakovacevic/QT_buttons_switches_diodes/led_driver/led_driver.ko /home/nikolakovacevic/QT_buttons_switches_diodes/led_driver/led_driver.o /home/nikolakovacevic/QT_buttons_switches_diodes/led_driver/led_driver.mod.o ;  true
