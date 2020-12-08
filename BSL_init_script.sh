@@ -1,10 +1,11 @@
+FILE=/dev/leds
+make -C led_driver
 
-make -C led_driver/
-if [[ ! -f /dev/leds ]]
+if [ ! -f "$FILE" ]
 then
-    echo file exists    
+insmod led_driver/led_driver.ko
 else
-    insmod led_driver/led_driver.ko
+echo "file exists"
 fi
 
 chmod a+x BSL_64bit_executable/BSL
