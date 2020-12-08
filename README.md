@@ -1,10 +1,22 @@
 # QT_buttons_switches_diodes
 
-This repository contains a simple QT project that emulates diodes, buttons and swithches. To start the application run the lbt_init_script.sh to generate 3 files in /dev directory (buttons, switches, and leds). Through these files interaction with the leds, switches and buttons is possible. 
+This repository contains a simple QT project that simulates diodes, buttons and swithches. To start the application run the BLS_init_script.sh to generate 3 files in /dev directory (buttons, switches, and leds):
+
+sudo ./BLS_init_script.sh
+
+Through these files interaction with the leds, switches and buttons is possible. 
+
+If you don't have qt5 installed on your linux debian distribution, next needs to be done:
+
+sudo apt update
+sudo apt upgrade
+sudo apt install qt5-default
 
 When this is done, just run the application:
 
-/BLS_executable_dir/Buttons_switches_diodes
+/BLS_32bit_executable/BSL -- If you are using a 32 bit ubuntu or lubuntu
+
+/BLS_64bit_executable/BSL -- If you are using a 64 bit ubuntu or lubuntu
 
 ## LEDS
 To turn on the leds just write a correct binary string into /dev/leds file. For example,
