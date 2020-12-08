@@ -4,9 +4,7 @@ This repository contains a simple QT project that simulates diodes, buttons and 
 
 sudo ./BLS_init_script.sh
 
-Through these files interaction with the leds, switches and buttons is possible. 
-
-If you don't have qt5 installed on your linux debian distribution, next needs to be done:
+Through these files interaction with the leds, switches and buttons is possible. If you don't have qt5 installed on your linux debian distribution, next needs to be done:
 
 sudo apt update
 sudo apt upgrade
