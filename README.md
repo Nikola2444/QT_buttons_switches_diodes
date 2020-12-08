@@ -7,7 +7,9 @@ sudo ./BLS_init_script.sh
 Through these files interaction with the leds, switches and buttons is possible. If you don't have qt5 installed on your linux debian distribution, next needs to be done:
 
 sudo apt update
+
 sudo apt upgrade
+
 sudo apt install qt5-default
 
 When this is done, just run the application:
