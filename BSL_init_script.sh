@@ -1,6 +1,10 @@
+
+make -C led_driver/
+insmod led_driver/led_driver.ko
+
 chmod a+x BSL_64bit_executable/BSL
 chmod a+x BSL_32bit_executable/BSL
-touch /dev/leds
+
 chmod 777 /dev/leds
 echo 0x00000000 > /dev/leds
 touch /dev/buttons
