@@ -1,6 +1,11 @@
 
 make -C led_driver/
-insmod led_driver/led_driver.ko
+if [[ ! -f /dev/leds ]]
+then
+    echo file exists    
+else
+    insmod led_driver/led_driver.ko
+fi
 
 chmod a+x BSL_64bit_executable/BSL
 chmod a+x BSL_32bit_executable/BSL
